@@ -7,9 +7,9 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class ApiService {
 
-  baseUrl = "http://127.0.0.1:8000/";
-  authUrl = "http://127.0.0.1:8000/auth/"
-  registerUrl = "http://127.0.0.1:8000/api/users/"
+  baseUrl = "https://to-do-app-814.herokuapp.com/";
+  authUrl = "https://to-do-app-814.herokuapp.com/auth/"
+  registerUrl = "https://to-do-app-814.herokuapp.com/api/users/"
 
   headers = new HttpHeaders({
     'Content-Type': 'application/json'
